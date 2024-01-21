@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<link rel="icon" type="image/x-icon" href="C:\Users\Lenovo\OneDrive\Desktop\Lima\img\favicon.ico" />
+<title>Frequently Asked Question</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+    	body{margin-top:20px;}
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f5ff;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: rgb(129, 196, 8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button p {
+        font-size: 14px;
+    }
+}
+
+.support-button i {
+    color: #3f43fd;
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 575px) {
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button a {
+    text-transform: capitalize;
+    color: #2ecc71;
+}
+@media only screen and (max-width: 575px) {
+    .support-button a {
+        font-size: 13px;
+    }
+}
+
+    </style>
+</head>
+<body>
+<div class="faq_area section_padding_130" id="faq">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 col-sm-8 col-lg-6">
+
+<div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+<h3><span>Frequently </span> Asked Questions</h3>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="row justify-content-center">
+
+<div class="col-12 col-sm-10 col-lg-8">
+<div class="accordion faq-accordian" id="faqAccordion">
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+<div class="card-header" id="headingOne">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Lima?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+<div class="card-body">
+<p>Lima is an online agriculture e-commerce platform that provides farmers with essential farm items on loan. Our unique model allows farmers to pay for these items using their crop output.</p>
+</div>
+</div>
+</div>
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+<div class="card-header" id="headingTwo">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">How does the Loan process work?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+<div class="card-body">
+<p>Farmers can select the farm items they need from our platform. These items are provided on loan, and farmers agree to pay for these items using their crop output. The specifics of this agreement are outlined in a separate Loan Agreement.</p>
+</div>
+</div>
+</div>
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+<div class="card-header" id="headingThree">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">How do I make a payment using my crop output?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+<div class="card-body">
+<p>The specifics of the payment process are outlined in the Loan Agreement. Generally, farmers agree to allocate a portion of their crop output as payment for the loaned items.</p>
+</div>
+</div>
+</div>
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+<div class="card-header" id="headingThree">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">What happens if my crop output is not enough to cover the cost of the loaned items?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+<div class="card-body">
+<p>We understand that farming can be unpredictable. In the event that a farmer's crop output is not sufficient to cover the cost of the loaned items, we encourage the farmer to contact us to discuss possible solutions.</p>
+</div>
+</div>
+</div>
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+<div class="card-header" id="headingThree">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">How can I contact Lima?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+<div class="card-body">
+<p>You can contact us via email or phone. Our customer service team is always ready to assist you with any questions or concerns you may have.</p>
+</div>
+</div>
+</div>
+<div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+<div class="card-header" id="headingThree">
+<h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">What types of farm items do you offer?<span class="lni-chevron-up"></span></h6>
+</div>
+<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+<div class="card-body">
+<p>We offer a wide range of farm items, including seeds, fertilizers, and farming equipment. Our goal is to provide farmers with the resources they need to increase their productivity.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+<i class="lni-emoji-sad"></i>
+<p class="mb-0 px-2">Can't find your answers?</p>
+<a href="file:///C:/Users/Lenovo/OneDrive/Desktop/Lima/contact.html"> Contact us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
